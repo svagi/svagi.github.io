@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  color: #3D3D3F;
+
+}
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #eee;
+}
+section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 1.1em;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 1.5em 2em;
+}
+section img {
+  width: 3em;
+  height: 6em;
+}
+section h1 {
+  font-size: 1.8em;
+  font-weight: normal;
+}
+section h2 {
+  font-size: 1.1em;
+  font-weight: normal;
+  color: #1C7382;
+}
+section a {
+  font-size: .73em;
+  color: #599620
+}
+section .card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-left: 1em
+}
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 125%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  body {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  body {
+    font-size: 175%;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  body {
+    font-size: 250%;
+  }
+}
