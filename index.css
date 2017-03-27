@@ -5,8 +5,6 @@
 html, body {
   height: 100%;
   width: 100%;
-  color: #3D3D3F;
-
 }
 body {
   display: -webkit-box;
@@ -21,7 +19,9 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  color: #3D3D3F;
   background-color: #eee;
+  background: radial-gradient(circle, #fff, #aaa);
 }
 section {
   display: -webkit-box;
@@ -43,17 +43,26 @@ section img {
   height: 6em;
 }
 section h1 {
-  font-size: 1.8em;
-  font-weight: normal;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+section h1 small {
+  font-size: .6em;
 }
 section h2 {
-  font-size: 1.1em;
+  font-size: 0.85em;
   font-weight: normal;
   color: #1C7382;
+  padding: .35em 0;
+  border-bottom: 1px solid #ccc;
 }
 section a {
-  font-size: .73em;
-  color: #599620
+  font-size: .665em;
+  color: #599620;
+  text-decoration: none;
+}
+section a:hover {
+  text-decoration: underline;
 }
 section .card {
   display: -webkit-box;
@@ -65,7 +74,7 @@ section .card {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding-left: 1em
+  padding: 1em 0 1em 1em;
 }
 @media only screen and (min-width: 768px) {
   body {
