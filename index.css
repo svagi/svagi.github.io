@@ -20,7 +20,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   color: #3D3D3F;
-  background-color: #eee;
+  background: #eee;
   background: radial-gradient(circle, #fff, #aaa);
 }
 section {
