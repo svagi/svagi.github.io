@@ -28,7 +28,14 @@
     </div>
   </section>
   <div>
-    <script src="service-worker-registration.js"></script>
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};
+      ga('create', 'UA-46044816-3', 'auto');
+      ga('set', 'transport', 'beacon');
+      ga('send', 'pageview');
+    </script>
+    <script async src="service-worker-registration.js"></script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
   </div>
 </body>
 </html>
