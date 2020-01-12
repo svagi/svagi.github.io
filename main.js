@@ -36,5 +36,11 @@ ga(function(tracker) {
     originalBuildHitTask(model);
   });
 
-  ga("send", "pageview", { [dimensions.HIT_SOURCE]: "pageload" });
+  ga("send", "pageview");
+});
+
+addEventListener("click", function(event) {
+  if (event.target.tagName === "A") {
+    ga("send", "event", "Outbound Link", "click", event.target.href);
+  }
 });
