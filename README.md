@@ -7,5 +7,6 @@
 ### Getting started
 
 ```
-sw-precache --config=sw-precache-config.js
+npm install
+npm run build
 ```
